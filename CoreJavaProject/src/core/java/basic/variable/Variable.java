@@ -8,7 +8,7 @@ public class Variable {
 	double y=2000000000; //
 	boolean falg=false; //boolean variable
 	
-	string str2=100000; //invalid value in string --> use ' or  "
+	String str2=100000; //invalid value in string --> use ' or  "
 	
 	
 }
