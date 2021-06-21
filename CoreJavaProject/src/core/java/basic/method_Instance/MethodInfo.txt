@@ -1,0 +1,10 @@
+
+void--> They dont return anything
+String --> Return data of string type
+boolean -->Return data of boolean type
+
+it implies on every method .
+
+
+public static void sum(int a ,int b) ----> method signature
+
