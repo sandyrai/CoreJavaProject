@@ -1,0 +1,19 @@
+ It is managed by Java automatically.
+ The JVM divides the memory into two parts: stack memory and heap memory. 
+ 
+ Stack Memory:
+ 1.It stores items that have a very short life such as methods, variables, and reference variables of the objects.
+ 2.It follows the LIFO order.
+ 3.We can increase the stack size by using the JVM option -Xss.
+ 4.JVM throws the java.lang.StackOverFlowError if the stack size is greater than the limit. To avoid this error, increase the stack size.
+ 5.Memory allocation is continuous.
+ 
+ 
+ Heap Space:
+ 1.It stores objects and Java Runtime Environment (JRE) classes.
+ 2.It does not follow any order because it is a dynamic memory allocation and does not have any fixed pattern for allocation and deallocation of memory blocks.
+ 3.It is flexible because we can alter the allocated memory.
+ 4.We can increase or decrease the heap memory size by using the -Xmx and -Xms JVM options.
+ 5.JVM throws the java.lang.OutOfMemoryError if the JVM is unable to create a new native method.
+ 6.It is done manually by the programmer.
+ 7.Memory allocated in random order.
