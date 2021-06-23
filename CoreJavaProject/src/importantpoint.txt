@@ -1,0 +1,2 @@
+String isn't primitive data type;
+string variable object.
