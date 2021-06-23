@@ -33,8 +33,15 @@ public class StringPractise {
 		//character at particulr index value of  string
 		 System.out.println(a.charAt(3));  
 		
-		
-		
+		 String str1="Hello there world";
+		 System.out.println(str1.indexOf("Hello"));
+		 System.out.println(str1.indexOf("world",13)); //case when index not found 13 ---> means start begin from this index
+		 System.out.println(str1.indexOf("world",7));
+		 
+		 int b =str1.lastIndexOf("there");
+		 System.out.println(b);
+		 
+		 
 	}
 
 }
