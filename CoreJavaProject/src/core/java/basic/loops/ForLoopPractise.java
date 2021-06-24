@@ -20,6 +20,14 @@ public class ForLoopPractise {
 		}
 		
 		
+		int counter =0;
+		
+		for(int i=0;i<=50;i+=1) {
+			System.out.println(i);
+			int temp =counter +1;
+			counter =temp;
+		}
+		
 
 	}
 
