@@ -1,0 +1,14 @@
+There are three ways to compare string in java:
+
+    1)By equals() method
+    2)By = = operator
+    3)By compareTo() method
+
+    
+There are two ways to concat string in java:
+
+    1)By + (string concatenation) operator
+    2)By concat() method
+
+In java, String concatenation is implemented through the StringBuilder (or StringBuffer) class and its append method.   
+    String s=(new StringBuilder()).append("Sachin").append(" Tendulkar).toString();   
