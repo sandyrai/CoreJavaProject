@@ -8,6 +8,9 @@ public class BasicStrig {
 		BasicComparision();
 		Concatenation_1();
 		Substring_1();
+		ChangeWordCase();
+		trim_1();
+		start_end_with();
 	}
 	
 	public static void BasicComparision() {
@@ -51,5 +54,28 @@ public class BasicStrig {
 		System.out.println(a.substring(6));
 		
 	}
+	
+	public static void ChangeWordCase() {
+		System.out.println("\n**** change to uppercase lowercase program");
+		String a = "ramesh";
+		String b="SANDEEP";
+		System.out.println(a.toUpperCase());
+		System.out.println(a.toLowerCase());
+				
+	}
+	
+	public static void trim_1() {
+		System.out.println("\n**** trim program");
+		String s="  sachin  ";
+		System.out.println(s);
+		System.out.println(s.trim());
+	}
 
+	public static void start_end_with() {
+		System.out.println("\n**** to check string starting and ending char/substring program");
+		String aa="sandeep";
+		System.out.println(aa.startsWith("sa"));
+		System.out.println(aa.endsWith("eep"));
+		System.out.println(aa.startsWith("SA"));
+	} 
 }
