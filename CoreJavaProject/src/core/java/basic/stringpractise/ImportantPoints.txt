@@ -12,3 +12,15 @@ There are two ways to concat string in java:
 
 In java, String concatenation is implemented through the StringBuilder (or StringBuffer) class and its append method.   
     String s=(new StringBuilder()).append("Sachin").append(" Tendulkar).toString();   
+    
+    
+ In java evrything is type
+ Gneric was introduced in java 5 --type safety
+ advance java syntax
+ we can used for mesage declaration
+ 
+ 
+ 
+ 
+ 
+    
